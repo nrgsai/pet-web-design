@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لیست پذیرش حیوان خانگی</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <h1>خوش آمدید</h1>
+        <h2>این فرشته ها به خونه نیاز دارند</h2>  
+    </div>
+
+
+    <div class="filter-nav">
+        <a href="#" data-filter="all">همه حیوانات خانگی</a>
+        <a href="#" data-filter="dog">سگ</a>
+        <a href="#" data-filter="cat">گربه</a>
+        <a href="#" data-filter="rabbit">خرگوش</a>
+    </div>
+
+    <div class="animals">
+    </div>
+
+    <template id="animal-card">
+        <div class="animal-card">
+            <div class="animal-card-text">
+                <h3></h3>
+                <small><span class="age">3 years old</span>-<span class="species"> Cat</span></small>
+                <p class="description">Meowsalot is a talkative friend that loves to play and is great with children.
+                     He is looking for a forever home today! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Doloribus, amet!</p>
+                <a href="#" class="primary-btn">Adopt <span class="name"></span></a>
+            </div>
+            <div class="animal-card-photo">
+                <img src="persiancat.jpg" alt="persiancat">
+            </div>
+        </div>
+    </template>
+</body>
+</html>
